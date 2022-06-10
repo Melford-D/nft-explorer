@@ -20,7 +20,7 @@ export const ThemeSwitch = ({ settheme }) => {
       setToggle(false);
       settheme(false);
     }
-  }, []);
+  }, [setToggle, settheme]);
 
   return (
     <React.Fragment>
